@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
             ["pino", "npm:9.3.2"],\
             ["pino-pretty", "npm:11.2.2"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.41"],\
             ["prettier", "npm:3.3.3"],\
             ["prettier-plugin-tailwindcss", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:0.6.5"],\
             ["react", "npm:18.3.1"],\
@@ -4097,7 +4097,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.3.7"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.1"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.41"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -9218,10 +9218,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:8.4.40", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.40-bd95efba25-afd0cc49d2.zip/node_modules/postcss/",\
+        ["npm:8.4.41", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.41-1607021b28-f865894929.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.41"],\
             ["nanoid", "npm:3.3.7"],\
             ["picocolors", "npm:1.0.1"],\
             ["source-map-js", "npm:1.2.0"]\
@@ -10889,7 +10889,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
             ["pino", "npm:9.3.2"],\
             ["pino-pretty", "npm:11.2.2"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.41"],\
             ["prettier", "npm:3.3.3"],\
             ["prettier-plugin-tailwindcss", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:0.6.5"],\
             ["react", "npm:18.3.1"],\
