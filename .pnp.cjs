@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
             ["pino", "npm:9.3.2"],\
             ["pino-pretty", "npm:11.2.2"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.47"],\
             ["prettier", "npm:3.3.3"],\
             ["prettier-plugin-tailwindcss", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:0.6.5"],\
             ["react", "npm:18.3.1"],\
@@ -4097,7 +4097,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.3.7"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.1"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.47"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -9044,6 +9044,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["picocolors", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/picocolors-npm-1.1.0-ea12a640bd-a64d653d3a.zip/node_modules/picocolors/",\
+          "packageDependencies": [\
+            ["picocolors", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["picomatch", [\
@@ -9218,13 +9225,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:8.4.40", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.40-bd95efba25-afd0cc49d2.zip/node_modules/postcss/",\
+        ["npm:8.4.47", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.47-2f4d4be1fa-f78440a9d8.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.47"],\
             ["nanoid", "npm:3.3.7"],\
-            ["picocolors", "npm:1.0.1"],\
-            ["source-map-js", "npm:1.2.0"]\
+            ["picocolors", "npm:1.1.0"],\
+            ["source-map-js", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10371,10 +10378,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.2.0", {\
-          "packageLocation": "./.yarn/cache/source-map-js-npm-1.2.0-6e63f357e5-791a43306d.zip/node_modules/source-map-js/",\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/source-map-js-npm-1.2.1-b9a47d7e1a-4eb0cd997c.zip/node_modules/source-map-js/",\
           "packageDependencies": [\
-            ["source-map-js", "npm:1.2.0"]\
+            ["source-map-js", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10889,7 +10896,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
             ["pino", "npm:9.3.2"],\
             ["pino-pretty", "npm:11.2.2"],\
-            ["postcss", "npm:8.4.40"],\
+            ["postcss", "npm:8.4.47"],\
             ["prettier", "npm:3.3.3"],\
             ["prettier-plugin-tailwindcss", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:0.6.5"],\
             ["react", "npm:18.3.1"],\
