@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["markdownlint-cli2", "npm:0.13.0"],\
             ["next", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:14.2.5"],\
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
-            ["pino", "npm:9.3.2"],\
+            ["pino", "npm:9.12.0"],\
             ["pino-pretty", "npm:11.2.2"],\
             ["postcss", "npm:8.4.40"],\
             ["prettier", "npm:3.3.3"],\
@@ -6216,15 +6216,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["fast-redact", [\
-        ["npm:3.4.0", {\
-          "packageLocation": "./.yarn/cache/fast-redact-npm-3.4.0-e9bc165feb-67840a9369.zip/node_modules/fast-redact/",\
-          "packageDependencies": [\
-            ["fast-redact", "npm:3.4.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["fast-safe-stringify", [\
         ["npm:2.1.1", {\
           "packageLocation": "./.yarn/cache/fast-safe-stringify-npm-2.1.1-7ce89033ca-a851cbddc4.zip/node_modules/fast-safe-stringify/",\
@@ -9098,19 +9089,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["pino", [\
-        ["npm:9.3.2", {\
-          "packageLocation": "./.yarn/cache/pino-npm-9.3.2-8da5956b19-81608b8b39.zip/node_modules/pino/",\
+        ["npm:9.12.0", {\
+          "packageLocation": "./.yarn/cache/pino-npm-9.12.0-3c9cbd628b-0c0fb78164.zip/node_modules/pino/",\
           "packageDependencies": [\
-            ["pino", "npm:9.3.2"],\
+            ["pino", "npm:9.12.0"],\
             ["atomic-sleep", "npm:1.0.0"],\
-            ["fast-redact", "npm:3.4.0"],\
             ["on-exit-leak-free", "npm:2.1.2"],\
-            ["pino-abstract-transport", "npm:1.2.0"],\
+            ["pino-abstract-transport", "npm:2.0.0"],\
             ["pino-std-serializers", "npm:7.0.0"],\
-            ["process-warning", "npm:4.0.0"],\
+            ["process-warning", "npm:5.0.0"],\
             ["quick-format-unescaped", "npm:4.0.4"],\
             ["real-require", "npm:0.2.0"],\
             ["safe-stable-stringify", "npm:2.4.3"],\
+            ["slow-redact", "npm:0.3.0"],\
             ["sonic-boom", "npm:4.0.1"],\
             ["thread-stream", "npm:3.1.0"]\
           ],\
@@ -9127,11 +9118,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.2.0", {\
-          "packageLocation": "./.yarn/cache/pino-abstract-transport-npm-1.2.0-8567d0d819-3336c51fb9.zip/node_modules/pino-abstract-transport/",\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/pino-abstract-transport-npm-2.0.0-696dba31d0-4db0cd8a1a.zip/node_modules/pino-abstract-transport/",\
           "packageDependencies": [\
-            ["pino-abstract-transport", "npm:1.2.0"],\
-            ["readable-stream", "npm:4.5.2"],\
+            ["pino-abstract-transport", "npm:2.0.0"],\
             ["split2", "npm:4.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -9477,10 +9467,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["process-warning", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/process-warning-npm-4.0.0-d61ed74d22-39d5cee536.zip/node_modules/process-warning/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/process-warning-npm-5.0.0-7999058ecd-99bce32133.zip/node_modules/process-warning/",\
           "packageDependencies": [\
-            ["process-warning", "npm:4.0.0"]\
+            ["process-warning", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10263,6 +10253,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["slow-redact", [\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/slow-redact-npm-0.3.0-d3e132569d-aa88f8359c.zip/node_modules/slow-redact/",\
+          "packageDependencies": [\
+            ["slow-redact", "npm:0.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["smart-buffer", [\
         ["npm:4.2.0", {\
           "packageLocation": "./.yarn/cache/smart-buffer-npm-4.2.0-5ac3f668bb-b5167a7142.zip/node_modules/smart-buffer/",\
@@ -10887,7 +10886,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["markdownlint-cli2", "npm:0.13.0"],\
             ["next", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:14.2.5"],\
             ["next-pwa", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:5.6.0"],\
-            ["pino", "npm:9.3.2"],\
+            ["pino", "npm:9.12.0"],\
             ["pino-pretty", "npm:11.2.2"],\
             ["postcss", "npm:8.4.40"],\
             ["prettier", "npm:3.3.3"],\

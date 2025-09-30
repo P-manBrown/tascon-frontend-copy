@@ -24,7 +24,7 @@
     "is-network-error": "^1.1.0",
     "next": "14.2.5",
     "next-pwa": "^5.6.0",
-    "pino": "^9.3.2",
+    "pino": "^9.12.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",
