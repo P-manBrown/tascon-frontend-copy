@@ -42,7 +42,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "knip": "^5.27.0",
+    "knip": "^5.64.1",
     "markdownlint-cli2": "^0.13.0",
     "pino-pretty": "^11.2.2",
     "postcss": "^8.4.40",
