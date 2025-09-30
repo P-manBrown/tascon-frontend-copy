@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:18.3.1"],\
             ["react-hook-form", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:7.52.1"],\
             ["server-only", "npm:0.0.1"],\
-            ["snakecase-keys", "npm:8.0.1"],\
+            ["snakecase-keys", "npm:9.0.2"],\
             ["tailwindcss", "npm:3.4.7"],\
             ["typescript", "patch:typescript@npm%3A5.5.4#~builtin<compat/typescript>::version=5.5.4&hash=77c9e2"],\
             ["zod", "npm:3.23.8"],\
@@ -4538,6 +4538,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["change-case", [\
+        ["npm:5.4.4", {\
+          "packageLocation": "./.yarn/cache/change-case-npm-5.4.4-3eecdb2577-a22a25a763.zip/node_modules/change-case/",\
+          "packageDependencies": [\
+            ["change-case", "npm:5.4.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["chokidar", [\
         ["npm:3.5.3", {\
           "packageLocation": "./.yarn/cache/chokidar-npm-3.5.3-c5f9b0a56a-b49fcde401.zip/node_modules/chokidar/",\
@@ -5096,17 +5105,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["doctrine", "npm:3.0.0"],\
             ["esutils", "npm:2.0.3"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["dot-case", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/dot-case-npm-3.0.4-09675b5521-a65e351941.zip/node_modules/dot-case/",\
-          "packageDependencies": [\
-            ["dot-case", "npm:3.0.4"],\
-            ["no-case", "npm:3.0.4"],\
-            ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8010,16 +8008,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["lower-case", [\
-        ["npm:2.0.2", {\
-          "packageLocation": "./.yarn/cache/lower-case-npm-2.0.2-151055f1c2-83a0a5f159.zip/node_modules/lower-case/",\
-          "packageDependencies": [\
-            ["lower-case", "npm:2.0.2"],\
-            ["tslib", "npm:2.6.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["lru-cache", [\
         ["npm:10.2.0", {\
           "packageLocation": "./.yarn/cache/lru-cache-npm-10.2.0-b9f6b44740-eee7ddda4a.zip/node_modules/lru-cache/",\
@@ -8098,17 +8086,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["map-obj", [\
-        ["npm:4.3.0", {\
-          "packageLocation": "./.yarn/cache/map-obj-npm-4.3.0-d53e32935d-fbc554934d.zip/node_modules/map-obj/",\
-          "packageDependencies": [\
-            ["map-obj", "npm:4.3.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:5.0.0", {\
           "packageLocation": "./.yarn/cache/map-obj-npm-5.0.0-71c70b509b-c35a4e42a4.zip/node_modules/map-obj/",\
           "packageDependencies": [\
             ["map-obj", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.2", {\
+          "packageLocation": "./.yarn/cache/map-obj-npm-5.0.2-421dc1dad3-ebe5484eaf.zip/node_modules/map-obj/",\
+          "packageDependencies": [\
+            ["map-obj", "npm:5.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8550,17 +8538,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/next",\
             "next"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["no-case", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/no-case-npm-3.0.4-12884c3d98-0b2ebc113d.zip/node_modules/no-case/",\
-          "packageDependencies": [\
-            ["no-case", "npm:3.0.4"],\
-            ["lower-case", "npm:2.0.2"],\
-            ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10281,24 +10258,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["snake-case", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/snake-case-npm-3.0.4-67f447c30d-0a7a79900b.zip/node_modules/snake-case/",\
-          "packageDependencies": [\
-            ["snake-case", "npm:3.0.4"],\
-            ["dot-case", "npm:3.0.4"],\
-            ["tslib", "npm:2.6.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["snakecase-keys", [\
-        ["npm:8.0.1", {\
-          "packageLocation": "./.yarn/cache/snakecase-keys-npm-8.0.1-a876c9a7e3-9eefa76140.zip/node_modules/snakecase-keys/",\
+        ["npm:9.0.2", {\
+          "packageLocation": "./.yarn/cache/snakecase-keys-npm-9.0.2-454c2dcd08-90421da34b.zip/node_modules/snakecase-keys/",\
           "packageDependencies": [\
-            ["snakecase-keys", "npm:8.0.1"],\
-            ["map-obj", "npm:4.3.0"],\
-            ["snake-case", "npm:3.0.4"],\
+            ["snakecase-keys", "npm:9.0.2"],\
+            ["change-case", "npm:5.4.4"],\
+            ["map-obj", "npm:5.0.2"],\
             ["type-fest", "npm:4.23.0"]\
           ],\
           "linkType": "HARD"\
@@ -10896,7 +10862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:18.3.1"],\
             ["react-hook-form", "virtual:712ddedb7826b0bc439379e55887833ad6e36bc23b62b0c5037e172da6585cad9fc5669277a9973a9a2caacdf8c383c3639827ef862386a6992eb4347b1be7d0#npm:7.52.1"],\
             ["server-only", "npm:0.0.1"],\
-            ["snakecase-keys", "npm:8.0.1"],\
+            ["snakecase-keys", "npm:9.0.2"],\
             ["tailwindcss", "npm:3.4.7"],\
             ["typescript", "patch:typescript@npm%3A5.5.4#~builtin<compat/typescript>::version=5.5.4&hash=77c9e2"],\
             ["zod", "npm:3.23.8"],\
@@ -11130,13 +11096,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.5.2-3f1b58afbb-4d3c1e238b.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.5.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.6.2", {\
-          "packageLocation": "./.yarn/cache/tslib-npm-2.6.2-4fc8c068d9-329ea56123.zip/node_modules/tslib/",\
-          "packageDependencies": [\
-            ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
